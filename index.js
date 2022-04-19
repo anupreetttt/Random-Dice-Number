@@ -15,7 +15,7 @@ function getrandom(){
    if (randomNum1 > randomNum2) {
        document.querySelector("h1").innerHTML = "🏆Player 1 won!";
    } else if (randomNum2 > randomNum1)  {
-    document.querySelector("h1").innerHTML = "🏆Player 2 won!";
+    document.querySelector("h1").innerHTML = "🥇Player 2 won!";
    } else {
     document.querySelector("h1").innerHTML = "🏁It's a tie!";
    }
